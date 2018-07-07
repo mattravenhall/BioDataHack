@@ -15,3 +15,6 @@ Running *main.py* will pull down a disease-gene data from OpenTargets (unless th
 
 ## Parameters
 By default *main.py* will perform dimension reduction with Principal Component Analysis, but Singular-Value Decomposition and t-SNE can be performed if *clusterType* is set to 'gene-svd' or 'gene-tsne'. Nb. these options will require editing *main.py*. Similarly, if disease-gene information needs to be pulled from OpenTargets the script will pull down 500 diseases by default, with more or less being pulled by changing the *maxDiseases* variable.
+
+## Example Output
+![](https://github.com/mattravenhall/BioDataHack/blob/master/kmeans.png)
